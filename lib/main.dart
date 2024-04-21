@@ -8,7 +8,6 @@ import 'ui/splash/splash.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (_) => AppProvider()),
